@@ -44,6 +44,16 @@
 		<url>http://repo1.maven.org/maven2</url>
 	    </pluginRepository>
 	</pluginRepositories>
-
+<build>
+	<plugins>
+		<plugin>
+			<groupId>
+				<artifactId>maven-war-pugin</artifactId>
+				<version>3.3.4</version>
+			</groupId>
+		</plugin>
+	</plugins>
+</build>
+	
 	
 </project>
